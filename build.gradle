@@ -72,6 +72,7 @@ tasks.withType(FindBugs) {
     }
 }
 pmd {
+    toolVersion = '5.6.1'
     ruleSetFiles = files("$projectDir/config/pmd/rule-set.xml")
 }
 tasks.withType(Pmd) {
